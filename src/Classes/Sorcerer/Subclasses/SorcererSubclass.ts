@@ -7,6 +7,7 @@ import { Shadow } from "./Shadow/Shadow";
 import { DivineSoul } from "./DivineSoul/DivineSoul";
 import { LevelingParams } from "Classes/PlayerClass";
 import { PlayerCharacter } from "../../../Base/PlayerCharacter";
+import { ClockworkSoul } from "./ClockworkSoul/ClockworkSoul";
 
 export class SorcererSubclass extends Subclass {
   constructor(subclassSelection: SubclassParams){
@@ -70,6 +71,12 @@ export class SorcererSubclass extends Subclass {
       "6": DivineSoul.divineSoul6,
       "14": DivineSoul.divineSoul14,
       "18": DivineSoul.divineSoul18,
+    },
+    "CLOCKWORK SOUL": {
+      "1": ClockworkSoul.clockworkSoul1,
+      "6": ClockworkSoul.clockworkSoul6,
+      "14": ClockworkSoul.clockworkSoul14,
+      "18": ClockworkSoul.clockworkSoul18,
     }
   };
 

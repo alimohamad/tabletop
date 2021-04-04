@@ -2205,7 +2205,8 @@
                     "DRACONIC ANCESTRY",
                     "SHADOW",
                     "STORM SORCERY",
-                    "WILD MAGIC"
+                    "WILD MAGIC",
+                    "CLOCKWORK SOUL"
                 ],
                 "option": true,
                 "required": true
