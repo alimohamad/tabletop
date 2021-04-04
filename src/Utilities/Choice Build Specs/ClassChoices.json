@@ -1315,7 +1315,8 @@
                     "CAVALIER",
                     "CHAMPION",
                     "ELDRITCH KNIGHT",
-                    "SAMURAI"
+                    "SAMURAI",
+                    "PSI WARRIOR"
                 ],
                 "option": true,
                 "required": true
