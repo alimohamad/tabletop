@@ -4,6 +4,7 @@ import { Hunter } from "./Hunter/Hunter";
 import { MonsterSlayer } from "./MonsterSlayer/MonsterSlayer";
 import { HorizonWalker } from "./HorizonWalker/HorizonWalker"
 import { GloomStalker } from "./GloomStalker/GloomStalker";
+import { Swarmkeeper } from "./Swarmkeeper/Swarmkeeper";
 
 export class RangerSubclass extends Subclass {
 
@@ -52,6 +53,16 @@ export class RangerSubclass extends Subclass {
       "13": MonsterSlayer.monsterSlayer13,
       "15": MonsterSlayer.monsterSlayer15,
       "17": MonsterSlayer.monsterSlayer17
+    },
+    SWARMKEEPER: {
+      "3": Swarmkeeper.swarmkeeper3,
+      "5": Swarmkeeper.swarmkeeper5,
+      "7": Swarmkeeper.swarmkeeper7,
+      "9": Swarmkeeper.swarmkeeper9,
+      "11": Swarmkeeper.swarmkeeper11,
+      "13": Swarmkeeper.swarmkeeper13,
+      "15": Swarmkeeper.swarmkeeper15,
+      "17": Swarmkeeper.swarmkeeper17,
     }
   }
 }

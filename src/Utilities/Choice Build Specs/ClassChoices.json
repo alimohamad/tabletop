@@ -1695,7 +1695,8 @@
                     "GLOOMSTALKER",
                     "HORIZONWALKER",
                     "HUNTER",
-                    "MONSTERSLAYER"
+                    "MONSTERSLAYER",
+                    "SWARMKEEPER"
                 ],
                 "option": true,
                 "required": true
