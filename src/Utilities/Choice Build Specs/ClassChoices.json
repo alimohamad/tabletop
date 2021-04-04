@@ -3780,7 +3780,8 @@
                     "EVOCATION",
                     "ILLUSION",
                     "NECROMANCY",
-                    "TRANSMUTATION"
+                    "TRANSMUTATION",
+                    "SCRIBES"
                 ],
                 "option": true,
                 "required": true

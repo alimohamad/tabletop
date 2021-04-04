@@ -9,6 +9,7 @@ import { Illusion } from "./Illusion/Illusion";
 import { Necromancy } from "./Necromancy/Necromancy";
 import { Transmutation } from "./Transmutation/Transmutation";
 import { War } from "./War/War";
+import { Scribes } from "./Scribes/Scribes";
 
 export class WizardSubclass extends Subclass {
 
@@ -75,6 +76,12 @@ export class WizardSubclass extends Subclass {
             "16": War.upSurge,
             "18": War.upSurge,
             "20": War.upSurge,
-        }
+        },
+        SCRIBES: {
+            "2": Scribes.scribes2,
+            "6": Scribes.scribes6,
+            "10": Scribes.scribes10,
+            "14": Scribes.scribes14,
+        },
     };
 }
