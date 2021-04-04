@@ -1691,11 +1691,12 @@
                 "alias": "Ranger Archetype",
                 "choose": 1,
                 "from": [
-                    "BEASTMASTER",
-                    "GLOOMSTALKER",
-                    "HORIZONWALKER",
+                    "BEAST MASTER",
+                    "GLOOM STALKER",
+                    "HORIZON WALKER",
                     "HUNTER",
-                    "MONSTERSLAYER"
+                    "MONSTER SLAYER",
+                    "FEY WANDERER"
                 ],
                 "option": true,
                 "required": true

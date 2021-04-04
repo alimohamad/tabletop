@@ -4,6 +4,7 @@ import { Hunter } from "./Hunter/Hunter";
 import { MonsterSlayer } from "./MonsterSlayer/MonsterSlayer";
 import { HorizonWalker } from "./HorizonWalker/HorizonWalker"
 import { GloomStalker } from "./GloomStalker/GloomStalker";
+import { FeyWanderer } from "./FeyWanderer/FeyWanderer";
 
 export class RangerSubclass extends Subclass {
 
@@ -52,6 +53,16 @@ export class RangerSubclass extends Subclass {
       "13": MonsterSlayer.monsterSlayer13,
       "15": MonsterSlayer.monsterSlayer15,
       "17": MonsterSlayer.monsterSlayer17
+    },
+    "FEY WANDERER": {
+      "3": FeyWanderer.feyWanderer3,
+      "5": FeyWanderer.feyWanderer5,
+      "7": FeyWanderer.feyWanderer7,
+      "9": FeyWanderer.feyWanderer9,
+      "11": FeyWanderer.feyWanderer11,
+      "13": FeyWanderer.feyWanderer13,
+      "15": FeyWanderer.feyWanderer15,
+      "17": FeyWanderer.feyWanderer17,
     }
   }
 }
