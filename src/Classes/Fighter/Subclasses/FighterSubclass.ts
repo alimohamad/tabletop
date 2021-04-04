@@ -6,6 +6,7 @@ import { EldritchKnight } from "./EldritchKnight/EldritchKnight";
 import { ArcaneArcher } from "./ArcaneArcher/ArcaneArcher";
 import { Cavalier } from "./Cavalier/Cavalier";
 import { Samurai } from "./Samurai/Samurai";
+import { RuneKnight } from "./RuneKnight/RuneKnight";
 
 export class FighterSubclass extends Subclass {
   constructor(subclassSelection: SubclassParams){
@@ -70,6 +71,13 @@ export class FighterSubclass extends Subclass {
           "10": Samurai.samurai10,
           "15": Samurai.samurai15,
           "18": Samurai.samurai18,
+        },
+        "RUNE KNIGHT": {
+          "3": RuneKnight.runeKnight3,
+          "7": RuneKnight.runeKnight7,
+          "10": RuneKnight.runeKnight10,
+          "15": RuneKnight.runeKnight15,
+          "18": RuneKnight.runeKnight18,
         }
       };
 }
