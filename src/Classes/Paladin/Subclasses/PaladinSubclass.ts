@@ -4,6 +4,7 @@ import { Devotion } from "./Devotion/Devotion";
 import { Vengeance } from "./Vengeance/Vengeance";
 import { Conquest } from "./Conquest/Conquest";
 import { Redemption } from "./Redemption/Redemption";
+import { Watchers } from "./Watchers/Watchers";
 
 export class PaladinSubclass extends Subclass {
 
@@ -69,6 +70,16 @@ export class PaladinSubclass extends Subclass {
       "17": Conquest.conquest17,
       "18": Conquest.improveAura,
       "20": Conquest.conquest20,
-    }
+    },
+    WATCHERS: {
+      "3": Watchers.watchers3,
+      "5": Watchers.watchers5,
+      "7": Watchers.watchers7,
+      "9": Watchers.watchers9,
+      "13": Watchers.watchers13,
+      "15": Watchers.watchers15,
+      "17": Watchers.watchers17,
+      "20": Watchers.watchers20,
+    },
   };
 }
