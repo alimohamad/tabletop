@@ -1567,7 +1567,8 @@
                     "ANCIENTS",
                     "DEVOTION",
                     "REDEMPTION",
-                    "VENGEANCE"
+                    "VENGEANCE",
+                    "GLORY"
                 ],
                 "option": false,
                 "required": true

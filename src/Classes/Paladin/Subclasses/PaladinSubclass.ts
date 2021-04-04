@@ -4,7 +4,7 @@ import { Devotion } from "./Devotion/Devotion";
 import { Vengeance } from "./Vengeance/Vengeance";
 import { Conquest } from "./Conquest/Conquest";
 import { Redemption } from "./Redemption/Redemption";
-
+import { Glory } from "./Glory/Glory";
 export class PaladinSubclass extends Subclass {
 
   constructor(subclassSelection: SubclassParams){
@@ -69,6 +69,26 @@ export class PaladinSubclass extends Subclass {
       "17": Conquest.conquest17,
       "18": Conquest.improveAura,
       "20": Conquest.conquest20,
+    },
+    GLORY: {
+      "3": Glory.glory3,
+      "4": Glory.upSmite,
+      "5": Glory.glory5,
+      "6": Glory.upSmite,
+      "7": Glory.glory7,
+      "8": Glory.upSmite,
+      "9": Glory.glory9,
+      "10": Glory.upSmite,
+      "11": Glory.upSmite,
+      "12": Glory.upSmite,
+      "13": Glory.glory13,
+      "14": Glory.upSmite,
+      "15": Glory.glory15,
+      "16": Glory.upSmite,
+      "17": Glory.glory17,
+      "18": Glory.upSmite,
+      "19": Glory.upSmite,
+      "20": Glory.glory20,
     }
   };
 }
