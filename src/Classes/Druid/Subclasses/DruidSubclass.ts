@@ -6,7 +6,7 @@ import { MoonCircle } from "./Moon/MoonCircle";
 import { SporesCircle } from "./Spores/SporesCircle";
 import { DreamsCircle } from "./Dreams/DreamsCircle";
 import { ShepherdCircle } from "./Shepherd/ShepherdCircle";
-
+import { WildfireCircle } from "./Wildfire/WildfireCircle";
 
 export class DruidSubclass extends Subclass {
   constructor(subclassSelection: SubclassParams){
@@ -99,6 +99,18 @@ export class DruidSubclass extends Subclass {
       "18": ShepherdCircle.upGuardian,
       "19": ShepherdCircle.upSpirit,
       "20": ShepherdCircle.upGuardian,
+    },
+    WILDFIRE: {
+      "2": WildfireCircle.wildfire2,
+      "3": WildfireCircle.wildfire3,
+      "4": WildfireCircle.wildfire4,
+      "5": WildfireCircle.wildfire5,
+      "6": WildfireCircle.wildfire6,
+      "7": WildfireCircle.wildfire7,
+      "8": WildfireCircle.wildfire8,
+      "9": WildfireCircle.wildfire9,
+      "10": WildfireCircle.wildfire10,
+      "14": WildfireCircle.wildfire14,
     }
   };
 

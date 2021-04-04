@@ -1107,7 +1107,8 @@
                     "LAND",
                     "MOON",
                     "SHEPHERD",
-                    "SPORES"
+                    "SPORES",
+                    "WILDFIRE"
                 ],
                 "option": true,
                 "required": true
