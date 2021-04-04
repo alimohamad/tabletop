@@ -7,6 +7,7 @@ import { Shadow } from "./Shadow/Shadow";
 import { DivineSoul } from "./DivineSoul/DivineSoul";
 import { LevelingParams } from "Classes/PlayerClass";
 import { PlayerCharacter } from "../../../Base/PlayerCharacter";
+import { AberrantMind } from "./AberrantMind/AberrantMind";
 
 export class SorcererSubclass extends Subclass {
   constructor(subclassSelection: SubclassParams){
@@ -70,6 +71,28 @@ export class SorcererSubclass extends Subclass {
       "6": DivineSoul.divineSoul6,
       "14": DivineSoul.divineSoul14,
       "18": DivineSoul.divineSoul18,
+    },
+    "ABERRANT MIND": {
+      "1": AberrantMind.aberrantMind1,
+      "2": AberrantMind.upSpeech,
+      "3": AberrantMind.upSpeech,
+      "4": AberrantMind.upSpeech,
+      "5": AberrantMind.upSpeech,
+      "6": AberrantMind.aberrantMind6,
+      "7": AberrantMind.upSpeech,
+      "8": AberrantMind.upSpeech,
+      "9": AberrantMind.upSpeech,
+      "10": AberrantMind.upSpeech,
+      "11": AberrantMind.upSpeech,
+      "12": AberrantMind.upSpeech,
+      "13": AberrantMind.upSpeech,
+      "14": AberrantMind.aberrantMind14,
+      "15": AberrantMind.upSpeech,
+      "16": AberrantMind.upSpeech,
+      "17": AberrantMind.upSpeech,
+      "18": AberrantMind.aberrantMind18,
+      "19": AberrantMind.upSpeech,
+      "20": AberrantMind.upSpeech,
     }
   };
 
