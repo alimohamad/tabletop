@@ -9,6 +9,7 @@ import { Illusion } from "./Illusion/Illusion";
 import { Necromancy } from "./Necromancy/Necromancy";
 import { Transmutation } from "./Transmutation/Transmutation";
 import { War } from "./War/War";
+import { Bladesinging } from "./Bladesinging/Bladesinging";
 
 export class WizardSubclass extends Subclass {
 
@@ -75,6 +76,12 @@ export class WizardSubclass extends Subclass {
             "16": War.upSurge,
             "18": War.upSurge,
             "20": War.upSurge,
-        }
+        },
+        BLADESINGING: {
+            "2": Bladesinging.bladesinging2,
+            "6": Bladesinging.bladesinging6,
+            "10": Bladesinging.bladesinging10,
+            "14": Bladesinging.bladesinging14,
+        },
     };
 }
