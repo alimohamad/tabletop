@@ -1,10 +1,11 @@
 import { Subclass, SubclassParams } from "../../Subclass";
-import { OpenHand } from "./OpenHand/OpenHand"
-import { Shadow } from "./Shadow/Shadow"
-import { FourElements } from "./FourElements/FourElements"
-import { DrunkenMaster} from "./DrunkenMaster/DrunkenMaster"
-import { Kensei} from "./Kensei/Kensei"
-import { SunSoul } from "./SunSoul/SunSoul"
+import { OpenHand } from "./OpenHand/OpenHand";
+import { Shadow } from "./Shadow/Shadow";
+import { FourElements } from "./FourElements/FourElements";
+import { DrunkenMaster} from "./DrunkenMaster/DrunkenMaster";
+import { Kensei} from "./Kensei/Kensei";
+import { SunSoul } from "./SunSoul/SunSoul";
+import { AstralSelf } from "./AstralSelf/AstralSelf";
 
 export class MonkSubclass extends Subclass {
   constructor(subclassSelection: SubclassParams){
@@ -50,6 +51,12 @@ export class MonkSubclass extends Subclass {
       "6": SunSoul.sunSoul6,
       "11": SunSoul.sunSoul11,
       "17": SunSoul.sunSoul17
+    },
+    "ASTRAL SELF": {
+      "3": AstralSelf.astralSelf3,
+      "6": AstralSelf.astralSelf6,
+      "11": AstralSelf.astralSelf11,
+      "17": AstralSelf.astralSelf17
     }
   }
 }
