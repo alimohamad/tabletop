@@ -5,7 +5,10 @@ import { AncestralGuardian } from "./AncestralGuardian/AncestralGuardian"
 import { StormHerald } from "./StormHerald/StormHerald";
 import { Zealot } from "./Zealot/Zealot";
 import { LevelingParams } from "Classes/PlayerClass";
+import { Beast } from "./Beast/Beast";
+import { WildMagic } from "./WildMagic/WildMagic";
 import { PlayerCharacter } from "../../../Base/PlayerCharacter";
+
 export class BarbarianSubclass extends Subclass {
 
   constructor(subclassSelection: SubclassParams){
@@ -20,6 +23,12 @@ export class BarbarianSubclass extends Subclass {
       "10": Berserker.berserker10,
       "14": Berserker.berserker14,
     },
+    BEAST: {
+      "3": Beast.beast3,
+      "6": Beast.beast6,
+      "10": Beast.beast10,
+      "14": Beast.beast14,
+    },
     ZEALOT: {
       "3": Zealot.zealot3,
       "4": Zealot.upFury,
@@ -31,6 +40,12 @@ export class BarbarianSubclass extends Subclass {
       "16": Zealot.upFury,
       "18": Zealot.upFury,
       "20": Zealot.upFury,
+    },
+    "WILD MAGIC": {
+      "3": WildMagic.wildMagic3,
+      "6": WildMagic.wildMagic6,
+      "10": WildMagic.wildMagic10,
+      "14": WildMagic.wildMagic14,
     },
     "TOTEM WARRIOR": {
       "3": TotemWarrior.totemWarrior3,
