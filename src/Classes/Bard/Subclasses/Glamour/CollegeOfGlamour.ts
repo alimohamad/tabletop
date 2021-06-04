@@ -18,7 +18,7 @@ export class CollegeOfGlamour {
   }
 
   static glamour6(pc: PlayerCharacter, params: LevelingParams) {
-    CollegeOfGlamour.getFeature("6", "MANTLE OF MAJESTY");
+    pc.pcHelper.addFeatures(CollegeOfGlamour.getFeature("6", "MANTLE OF MAJESTY"));
     pc.pcHelper.addSpells(["COMMAND"], "charisma");
   }
 

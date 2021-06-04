@@ -4,7 +4,7 @@ import { CollegeOfLore } from "./Lore/CollegeOfLore";
 import { CollegeOfSwords } from "./Swords/CollegeOfSwords";
 import { CollegeOfValor } from "./Valor/CollegeOfValor";
 import { CollegeOfWhispers } from "./Whispers/CollegeOfWhispers";
-
+import { CollegeOfEloquence } from "./Eloquence/CollegeOfEloquence";
 export class BardSubclass extends Subclass {
 
   constructor(subclassSelection: SubclassParams){
@@ -29,6 +29,11 @@ export class BardSubclass extends Subclass {
       "10": CollegeOfWhispers.whispers10,
       "14": CollegeOfWhispers.whispers14,
       "15": CollegeOfWhispers.whispers15,
+    },
+    ELOQUENCE: {
+      "3": CollegeOfEloquence.eloquence3,
+      "6": CollegeOfEloquence.eloquence6,
+      "14": CollegeOfEloquence.eloquence14,
     },
     SWORDS: {
       "3": CollegeOfSwords.swords3,
