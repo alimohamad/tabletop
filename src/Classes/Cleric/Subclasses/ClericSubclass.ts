@@ -9,6 +9,7 @@ import { TempestDomain } from "./Tempest/TempestDomain";
 import { TrickeryDomain } from "./Trickery/TrickeryDomain";
 import { WarDomain } from "./War/WarDomain";
 import { GraveDomain } from "./Grave/GraveDomain";
+import { PeaceDomain } from "./Peace/PeaceDomain";
 
 export class ClericSubclass extends Subclass {
 
@@ -122,6 +123,17 @@ export class ClericSubclass extends Subclass {
         "8": GraveDomain.grave8,
         "9": GraveDomain.grave9,
         "17": GraveDomain.grave17
+      },
+      PEACE: {
+        "1": PeaceDomain.peace1,
+        "2": PeaceDomain.peace2,
+        "3": PeaceDomain.peace3,
+        "5": PeaceDomain.peace5,
+        "6": PeaceDomain.peace6,
+        "7": PeaceDomain.peace7,
+        "8": PeaceDomain.peace8,
+        "9": PeaceDomain.peace9,
+        "17": PeaceDomain.peace17
       }
   };
 }
